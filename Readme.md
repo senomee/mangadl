@@ -11,7 +11,7 @@ Web and Desktop App for Browse Manga/Doujinshi, Download without Torrent, Suppor
 - Register [Heroku](https://dashboard.heroku.com/), 
 - Push Deploy Button.  
 
-[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/moedevel/mangadl)
+[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/senomee/mangadl)
 
 ## Features
 - ZIP/CBZ Download
