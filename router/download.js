@@ -24,7 +24,7 @@ router.get("/nhentai/:code", async function (req, res) {
     if (start > end) end = start;
     res.writeHead(200, {
       "Content-Type": "application/zip",
-      "Content-disposition": `attachment; filename=${tittle}.zip`,
+      "Content-disposition": `attachment; filename=${code}.zip`,
     });
     var zip = archiver("zip", {
       store: true,
@@ -76,7 +76,7 @@ router.get("/nhentai/:code/:type", async function (req, res, next) {
   if (start > end) end = start;
   res.writeHead(200, {
     "Content-Type": "application/zip",
-    "Content-disposition": `attachment; filename=${tittle}.${type}`,
+    "Content-disposition": `attachment; filename=${code}.${type}`,
   });
   var zip = archiver("zip", {
     store: true,
